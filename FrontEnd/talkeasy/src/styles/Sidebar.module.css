@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+.Sidebarcontainer {
+  background: #191919;
+  min-height: 100vh;
+  font-family: Montserrat, sans-serif;
+  width: 3rem;
+}
+.sidebar a {
+  font-size: 40px;
+  color: #fff;
+  text-decoration: none;
+  padding-left: 10px;
+}
+
+.sidebar {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 100vh;
+}
+
+button {
+  width: 2.5rem;
+  margin-left: 0.1vw;
+}
