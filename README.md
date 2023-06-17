@@ -1,7 +1,8 @@
 # Message_App  
 ### A simple Messaging App using Django ,Reactjs and sqlite
 
-Output
+Output  
+  
 <img width="742" alt="admin" src="https://github.com/gmrpr321/Message_App/assets/94698751/3d792e36-cf86-439d-b8fa-63d3b0d920d0">
   
 <img width="959" alt="create" src="https://github.com/gmrpr321/Message_App/assets/94698751/7fabd8a7-f66d-4eec-9c56-8148857e95fc">
