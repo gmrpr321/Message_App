@@ -1,0 +1,52 @@
+.message {
+  background-color: rgb(207, 239, 228);
+  margin: 10px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  cursor: pointer;
+}
+.user {
+  text-align: left;
+  height: 20px;
+  background-color: antiquewhite;
+  font-variant: small-caps;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: 25px;
+}
+.user p {
+  margin-left: 20px;
+}
+.messageContent {
+  border-radius: 50px;
+  padding-bottom: 5px;
+}
+.messageContent p {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.messageReaction {
+  background-color: #f7f7f7;
+  text-align: right;
+  padding-right: 30px;
+}
+.noReaction {
+  background-color: #f7f7f7;
+  text-align: right;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+.messageReaction > {
+  display: inline;
+}
+
+/* <div className={classes.message}>
+            <div className={classes.user}>
+              <p>{element.user}</p>
+            </div>
+            <div className={classes.messageContent}>
+              <p> {element.messageContent}</p>
+            </div>
+            <div className={classes.messageReaction}>
+              {element.messageReaction ? 1 : 0}
+            </div> */

@@ -1,0 +1,116 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  margin-bottom: 20px;
+}
+.box {
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 80%;
+}
+
+.headingBox {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  background-color: antiquewhite;
+}
+.heading {
+  margin-right: 30px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .heading h1 {
+    font-size: 22px;
+  }
+  .heading {
+    margin-top: 25px;
+  }
+}
+
+.removeUserHead {
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: large;
+  font-weight: 600;
+}
+
+.logoutButton {
+  cursor: pointer;
+  color: #eb0000;
+  font-weight: bold;
+  width: 40px;
+  padding: 8px;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+.removeUserBox {
+  margin-top: 10px;
+}
+.newMemberBox {
+  text-align: center;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: auto;
+}
+
+.newMemberBox h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.newMemberBox input {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.newMemberBox button {
+  margin: 20px auto;
+  width: 120px;
+}
+.removeUserBox {
+  background-color: rgb(254, 250, 230);
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+  overflow-y: scroll;
+  height: 40vh;
+}
+
+.userTile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.removeButton {
+  cursor: pointer;
+  color: #e53935;
+  font-size: 18px;
+}
+.removeButton:hover {
+  background-color: #f6cece;
+}
+
+.removeButton:hover {
+  color: #c62828;
+  border-radius: 10px;
+}

@@ -9,6 +9,8 @@ import classes from "../styles/Sidebar.module.css";
 import { pageActions } from "../store";
 import { authActions } from "../store";
 import { showgrpTab } from "../store";
+import axios from "axios";
+const base_url = "http://127.0.0.1:8000/user/logout/";
 function Sidebar() {
   const dispatch = useDispatch();
   function groupsPage() {
@@ -19,6 +21,10 @@ function Sidebar() {
     dispatch(pageActions.setPage(2));
   }
   function logoutpage() {
+    axios
+      .get(base_url)
+      .then(() => console.log("User Logged Out"))
+      .catch((error) => console.log(error));
     dispatch(authActions.loggedOut(3));
   }
   return (

@@ -1,0 +1,65 @@
+.container {
+  display: block;
+  background-color: #f7f7f7;
+  border: 5px rgb(182, 181, 181) solid;
+  box-shadow: 10 10 5px rgba(0, 0, 0, 0.2);
+  width: 97vw;
+  display: flex;
+  flex-direction: column;
+}
+.closeContainer {
+  display: none;
+}
+.responseContainer {
+  display: block;
+  background-color: #f7f7f7;
+  border: 5px rgb(182, 181, 181) solid;
+  box-shadow: 10 10 5px rgba(0, 0, 0, 0.2);
+  width: 97vw;
+  display: flex;
+  flex-direction: column;
+}
+.hide {
+  display: none;
+}
+.header {
+  text-align: center;
+  background-color: rgb(167, 213, 198);
+}
+.body {
+  overflow-y: scroll;
+  height: 70vh;
+}
+.newMessage {
+  padding: 10px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.newMessage input {
+  padding: 10px;
+  width: 50vw;
+  height: 2em;
+  border: 2px rgb(20, 20, 20) solid;
+  border-radius: 40px;
+  box-shadow: 10 10 5px rgba(108, 193, 39, 0.2);
+}
+.newMessage button {
+  margin-left: 10px;
+  width: 10vw;
+  border-radius: 40px;
+  background-color: aqua;
+  display: inline;
+}
+
+@media only screen and (max-width: 600px) {
+  .responseContainer {
+    display: none;
+  }
+  .newMessage button {
+    margin-left: 10px;
+    width: 18vw;
+    border-radius: 40px;
+    background-color: aqua;
+  }
+}

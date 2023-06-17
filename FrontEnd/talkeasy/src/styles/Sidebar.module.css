@@ -6,13 +6,16 @@
   background: #191919;
   min-height: 100vh;
   font-family: Montserrat, sans-serif;
+  display: flex;
   width: 3rem;
+  flex-basis: 1vw;
 }
-.sidebar a {
-  font-size: 40px;
+.sidebar > * {
   color: #fff;
   text-decoration: none;
   padding-left: 10px;
+  width: 40px;
+  margin: auto;
 }
 
 .sidebar {

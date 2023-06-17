@@ -1,22 +1,34 @@
 .verticalMenu {
   width: 15rem;
-  min-height: 100vh;
+  min-height: 99vh;
   background-color: rgb(199, 213, 230);
 }
-.verticalMenu a {
+.verticalMenu div {
   background-color: #eee;
   color: black;
-  display: block;
   padding: 12px;
   text-decoration: none;
   margin-top: 2px;
 }
-
-.verticalMenu a:hover {
+.fullHide {
+  display: none;
+}
+.hide {
+}
+@media only screen and (max-width: 600px) {
+  .hide {
+    display: none;
+  }
+}
+.show {
+  display: block;
+}
+.verticalMenu div:hover {
   background-color: #ccc;
+  cursor: pointer;
 }
 
-.verticalMenu a.active {
+.verticalMenu div.active {
   background-color: #04aa6d;
   color: white;
 }
@@ -26,4 +38,8 @@
   padding-top: 2rem;
   font-variant: small-caps;
   font-size: 30px;
+}
+.heading h4:hover {
+  background-color: #ccc;
+  cursor: pointer;
 }

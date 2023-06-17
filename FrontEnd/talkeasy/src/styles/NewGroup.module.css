@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  background-color: beige;
+  border: 5px grey solid;
+  margin: 0 auto;
+  height: 100vh;
+}
+.box {
+}
+input {
+  border: 5px rgb(166, 166, 197) solid;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.headingBox {
+  background-color: cadetblue;
+  text-align: center;
+  font-variant: small-caps;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.headingBox p {
+  font-size: large;
+  font-variant: small-caps;
+}
+.contentBox {
+  padding: 20px;
+  display: flex;
+  width: 82vw;
+  flex-direction: column;
+  margin-bottom: 8rem;
+}
+.people {
+  width: 50%;
+  height: 30%;
+}
+.collectionHeader {
+  text-align: center;
+  margin: 0px 10px;
+  background-color: rgb(255, 185, 160);
+}
+.enclosePeople {
+  display: flex;
+  flex-direction: row;
+}
+@media only screen and (max-width: 600px) {
+  .enclosePeople {
+    flex-direction: column;
+  }
+  .dispPeople {
+    margin-left: 10px;
+  }
+  .collectionHeader {
+    margin-left: 20px;
+  }
+  .people {
+    width: 100%;
+    margin-bottom: 100px;
+    overflow-y: scroll;
+    height: 25vh;
+    margin-bottom: 25px;
+  }
+}
+.dispPeople {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 25px 10px;
+  padding-bottom: 0px;
+  background-color: rgb(252, 254, 234);
+  height: 15em;
+  overflow-y: scroll;
+}
+.dispPeople div {
+  margin: 5px 10px;
+  max-height: 30px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: aquamarine;
+  text-align: center;
+  cursor: pointer;
+}
+button {
+  margin: auto;
+  width: 10rem;
+  text-align: center;
+  background-color: rgb(248, 208, 155);
+  border-radius: 10px;
+}
